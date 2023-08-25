@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'Raleway Medium';
+  src: url(/asset/fonts/raleway/Raleway-Medium.woff2) format('woff2'),
+      url(/asset/fonts/raleway/Raleway-Medium.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway Light';
+  src: url(/asset/fonts/raleway/Raleway-Light.woff2) format('woff2'),
+      url(/asset/fonts/raleway/Raleway-Light.woff) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway Bold';
+  src: url(/asset/fonts/raleway/Raleway-Bold.woff2) format('woff2'),
+      url(/asset/fonts/raleway/Raleway-Bold.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway Regular';
+  src: url(/asset/fonts/raleway/Raleway-Regular.woff2) format('woff2'),
+      url(/asset/fonts/raleway/Raleway-Regular.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway SemiBold';
+  src: url(/asset/fonts/raleway/Raleway-SemiBold.woff2) format('woff2'),
+      url(/asset/fonts/raleway/Raleway-SemiBold.woff) format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --black-color: #000000;
+  --white-color: #FFFFFF;
+  --acсent-color: #28553F;
+  --grey-text-color: #9C9C9C;
+  --grey-background-color: #F5F7F3;
+  --green-text-color: #949981;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family: 'Raleway Regular';
+}
+
+a {
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.list-reset {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  padding: 21px 0px 0px 74px;
+}
+.logo {
+}
+.header_logo {
+}
+.header_rows {
+}
+.row_contacts {
+}
+.WhatsApp {
+}
+.telephone {
+}
+.search {
+}
+.row_menu {
+}
+.menu_item {
+}
